@@ -1,0 +1,138 @@
+body{
+   font-family: 'Roboto', sans-serif;
+} 
+
+header{
+   position: absolute;
+   background-color: rgb(22, 65, 194);
+   width: 1450px;px ;
+   height: 677px;
+   top: 0;
+   left: 0;
+
+}
+/* banner-stylesheet */
+.banner-pic img {
+   height: 428px;
+   width: 388px;
+   margin-left: 250px;
+   margin-right: 80px;
+}
+.banner-pic{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   margin-top:100px ;
+}
+.banner-pic .banner-headline{
+   color: white;
+   font-size: 40px;
+   margin-left: 200px;
+}
+span{
+   padding:10px;
+}
+
+.banner-headline p {
+    color: rgb(246, 253, 232);
+    background-color: palevioletred;
+    border: 1px solid rgba(128, 255, 0, 0);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    
+ }
+
+ header:hover .banner-headline p{
+   color: crimson;
+   font-size: 28px;
+}
+ 
+ 
+
+
+/* players-area */
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap:10px;
+   margin-top: 747px;
+   
+}
+
+.all-players{
+   width: 300px;
+   height: 474px;
+}
+.players{
+   width: 300px;
+   height: 474px;
+   border: 3px solid rgb(246, 253, 232);
+   /* padding: 15px; */
+   margin-bottom: 20px;
+   box-shadow: 10px 10px 10px grey;
+  
+
+   
+}
+.player{
+   width: 300px;
+   height: 430px;
+   
+}
+.player img{
+   width: 300px;
+   height: 256px;
+}
+.player-titel{
+   font-size: 30px;
+}
+
+
+/* nesw-stylesheet */
+/* .news-container{
+   display: flex;
+   margin-right: 200px;
+   margin-top: 300px;
+
+}
+.news-bannner img{
+   height: 567px;
+   width: 427px;
+
+}
+.news{
+   width: 466;
+   height: 309;
+} */
+/* footer-stylesheet */
+footer{
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin-top: 100px;
+}
+.icon{
+   font-size: 50px;
+   color: rgba(138, 129, 129, 0.65);
+   
+}
+span{
+   margin-left: 30px;
+   margin-top: 20px;
+   padding: 0;
+}
+footer p{
+   font-weight: 700;
+}
+
+
+/* media quaries */
+
+
+
+
+/* mobile device */
